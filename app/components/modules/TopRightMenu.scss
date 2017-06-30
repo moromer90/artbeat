@@ -1,0 +1,48 @@
+.sub-menu {
+    li {
+        padding: .7rem 1rem;
+        a {
+            padding: 0px;
+        }
+    }
+    li:last-child {
+        padding: 0 0 0 1rem;
+    }
+}
+
+li.Header__userpic {
+  padding: 0;
+  position: relative;
+
+  .Userpic {
+    width: 36px !important;
+    height: 36px !important;
+    border: 1px solid #e0e0e0;
+  }
+}
+
+.TopRightMenu__notificounter {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    > .NotifiCounter {
+        display: block;
+    }
+}
+
+li.buttons {
+    padding-right: 0;
+    margin-right: 10px;
+}
+
+li {
+    .button.alert, .button.success {
+      padding: 0px 5px;
+      font-size: 100%;
+      font-weight: 500;
+    }
+    .button.fest {
+      text-transform: inherit;
+      background-color: #eb3010;
+    }
+}
